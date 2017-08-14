@@ -8,13 +8,10 @@ public class Beginner52 {
 		String str=Integer.toString(n);
 		int a=0;
 		int rem=0;
-		
-			for(int i=0;i<str.length();i++){
+		for(int i=0;i<str.length();i++){
 				String s=str.substring(i,i+1);
 				a=Integer.parseInt(s);
-			
-		
-		switch(a){
+			switch(a){
 		case 1:{System.out.println("one");break;}
 		case 2:{System.out.println("two");break;}
 		case 3:{System.out.println("three");break;}
