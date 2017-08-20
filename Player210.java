@@ -17,7 +17,7 @@ while(n>0){
 	i++;
 	}
 Arrays.sort(a);
-for(int j=len-1;j>=0;j--){
+for(int j=0;j<len;j++){
 	System.out.println(a[j]);
 }
 
