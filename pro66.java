@@ -13,9 +13,9 @@ public class pro66 {
 		}
 		int b=scan.nextInt();
 		for(int i=0;i<total;i++){
-			sum+=((double)a[i]/2);
+			sum+=(a[i]);
 		}
-		if(sum==b){
+		if((sum/2)==b){
 			System.out.println(a[kth]/2);
 		}else{
 			System.out.println("Bon Appetit");
